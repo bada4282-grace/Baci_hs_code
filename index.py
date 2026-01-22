@@ -5,7 +5,7 @@ import seaborn as sns
 
 # 데이터 로드
 df = pd.read_csv('./baci_korea_85_only.csv')
-countries = pd.read_csv('./country_codes_V202501.csv', encoding='utf-8')
+countries = pd.read_csv('./country_codes_V202501.csv', encoding='cp949')
 products = pd.read_csv('./data/product_codes_HS22_V202501.csv')
 print(df.head())
 print(df.info())
